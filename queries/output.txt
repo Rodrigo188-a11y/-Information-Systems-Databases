@@ -1,0 +1,39 @@
+-- A. The name of all boats that are used in some trip
+---------------
++---------+
+|name_boat|
++---------+
+|otuga    |
+|tejo     |
+|CR       |
+|f1       |
++---------+
+
+
+-- B. The name of all boats that are not used in any trip
+---------------
++---------+
+|name_boat|
++---------+
+|copamundo|
+|catar    |
++---------+
+
+
+-- C. The name of all boats registered in 'PRT' (ISO code) for which at least one responsible for a
+--reservation has a surname that ends with 'Santos'
+---------------
++---------+
+|name_boat|
++---------+
+|tejo     |
++---------+
+
+
+-- D. The full name of all skippers without any certificate corresponding to the class of the trip’s boat
+---------------
++----------------+-------+-------------------------+
+|first_name      |surname|email                    |
++----------------+-------+-------------------------+
+|Sebastiao Santos|Caldas |sebastiaocaldas@gmail.com|
++----------------+-------+-------------------------+
